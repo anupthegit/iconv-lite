@@ -1,0 +1,20 @@
+To: submit@bugs.debian.org
+Subject: ITP: node-iconv-lite -- Convert character encodings in pure javascript.
+
+Package: wnpp
+Severity: wishlist
+Owner: FIX_ME debian author
+X-Debbugs-CC: debian-devel@lists.debian.org
+
+* Package name    : node-iconv-lite
+  Version         : 0.4.13
+  Upstream Author : Alexander Shtuchkin <ashtuchkin@gmail.com>
+* URL             : https://github.com/ashtuchkin/iconv-lite
+* License         : Expat
+  Programming Lang: JavaScript
+  Description     : Convert character encodings in pure javascript.
+
+ FIX_ME bug long description
+ .
+ Node.js is an event-based server-side JavaScript engine.
+

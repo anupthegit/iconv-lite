@@ -1,0 +1,6 @@
+node-iconv-lite (0.4.13-1) unstable; urgency=low
+
+  * Initial release (Closes: #744348)
+
+ -- Anup Vasudevan <anupv@thoughtworks.com>  Tue, 12 Jan 2016 10:13:58 +0530
+

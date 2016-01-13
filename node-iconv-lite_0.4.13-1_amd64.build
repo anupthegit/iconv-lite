@@ -1,0 +1,52 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package node-iconv-lite
+dpkg-buildpackage: source version 0.4.13-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by Anup Vasudevan <anupv@thoughtworks.com>
+ dpkg-source --before-build node-iconv-lite-0.4.13
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b node-iconv-lite-0.4.13
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building node-iconv-lite using existing ./node-iconv-lite_0.4.13.orig.tar.gz
+dpkg-source: warning: ignoring deletion of file .travis.yml
+dpkg-source: warning: ignoring deletion of file .npmignore
+dpkg-source: info: building node-iconv-lite in node-iconv-lite_0.4.13-1.debian.tar.gz
+dpkg-source: info: building node-iconv-lite in node-iconv-lite_0.4.13-1.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package `node-iconv-lite' in `../node-iconv-lite_0.4.13-1_all.deb'.
+ dpkg-genchanges  >../node-iconv-lite_0.4.13-1_amd64.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build node-iconv-lite-0.4.13
+dpkg-buildpackage: full upload (original source is included)
+Now running lintian...
+E: node-iconv-lite changes: bad-distribution-in-changes-file unstable
+E: node-iconv-lite source: source-is-missing encodings/tables/gb18030-ranges.json
+W: node-iconv-lite source: package-needs-versioned-debhelper-build-depends 9
+W: node-iconv-lite source: newer-standards-version 3.9.6 (current is 3.9.5)
+Finished running lintian.

@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 12 Jan 2016 10:13:58 +0530
+Source: node-iconv-lite
+Binary: node-iconv-lite
+Architecture: source all
+Version: 0.4.13-1
+Distribution: unstable
+Urgency: low
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Changed-By: Anup Vasudevan <anupv@thoughtworks.com>
+Description: 
+ node-iconv-lite - Convert character encodings in pure javascript.
+Closes: 744348
+Changes: 
+ node-iconv-lite (0.4.13-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #744348)
+Checksums-Sha1: 
+ ca1c4fe3f7837f9694f4856dec0e8fd2c75b2ddb 1162 node-iconv-lite_0.4.13-1.dsc
+ da3e9a6fbe3dd0b2756270e9ac665d19b7ac0065 224006 node-iconv-lite_0.4.13.orig.tar.gz
+ 5f3896d8519993f3deb0af8275c1c43b59602734 1999 node-iconv-lite_0.4.13-1.debian.tar.gz
+ 96fcf0fea09098e50bf601ab32815d9153c880a8 9476 node-iconv-lite_0.4.13-1_all.deb
+Checksums-Sha256: 
+ 00a7ad8acfc3ba84713c30b28822c39b8b84c0275e85d6f830432dafdd1cbd7e 1162 node-iconv-lite_0.4.13-1.dsc
+ c8de1a00516c996da76293d1b8220cf4df634ad8a9933df961c272649fd75dc9 224006 node-iconv-lite_0.4.13.orig.tar.gz
+ 60078910ee7c358c830dc25f9891c5c71a2b66729b06805a0f65238ade222e35 1999 node-iconv-lite_0.4.13-1.debian.tar.gz
+ bd2d4174070cdbded43f555ee293b051371fc1a763efbbb21e8e447a85301e53 9476 node-iconv-lite_0.4.13-1_all.deb
+Files: 
+ 8919492c4ce1652e0f42a463b38c973e 1162 web optional node-iconv-lite_0.4.13-1.dsc
+ 50f4881162c4ef7b8d2ee3efcd4dfc47 224006 web optional node-iconv-lite_0.4.13.orig.tar.gz
+ b2492a8f5ceb441afdc8b8fec17d6231 1999 web optional node-iconv-lite_0.4.13-1.debian.tar.gz
+ 72416c141b0ab71aaeb5de24daffc1af 9476 web optional node-iconv-lite_0.4.13-1_all.deb

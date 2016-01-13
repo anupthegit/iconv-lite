@@ -1,0 +1,11 @@
+Package: node-iconv-lite
+Version: 0.4.13-1
+Architecture: all
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Installed-Size: 64
+Depends: nodejs
+Section: web
+Priority: optional
+Homepage: https://github.com/ashtuchkin/iconv-lite
+Description: Convert character encodings in pure javascript.
+ Node.js is an event-based server-side JavaScript engine.
